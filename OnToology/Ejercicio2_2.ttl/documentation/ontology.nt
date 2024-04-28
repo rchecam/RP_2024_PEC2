@@ -3,7 +3,6 @@
 <https://w3id.org/def/rchecam-RP-PEC2> <http://purl.org/dc/terms/created> "2024-04-20" .
 <https://w3id.org/def/rchecam-RP-PEC2> <http://purl.org/dc/terms/creator> "Raúl Checa Marín" .
 <https://w3id.org/def/rchecam-RP-PEC2> <http://purl.org/dc/terms/description> "Ontogía para encuestas de satisfacción de vuelos." .
-<https://w3id.org/def/rchecam-RP-PEC2> <http://purl.org/dc/terms/license> "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International." .
 <https://w3id.org/def/rchecam-RP-PEC2> <http://purl.org/dc/terms/title> "Ontología de la PEC 2 de Representación del conocimiento." .
 <https://w3id.org/def/rchecam-RP-PEC2> <http://www.w3.org/2002/07/owl#priorVersion> "0.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/def/rchecam-RP-PEC2> <http://www.w3.org/2002/07/owl#versionIRI> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -179,6 +178,7 @@
 # 
 # http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft
 <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports> .
 <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta clase representa las distintas aeronaves que se pueden usar en los viajes." .
 <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft" .
 # 
