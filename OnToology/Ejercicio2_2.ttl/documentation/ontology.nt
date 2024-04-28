@@ -178,7 +178,6 @@
 # 
 # http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft
 <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports> .
 <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta clase representa las distintas aeronaves que se pueden usar en los viajes." .
 <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft" .
 # 
