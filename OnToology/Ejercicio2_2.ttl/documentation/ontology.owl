@@ -154,8 +154,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Composed_by">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
-        <rdfs:comment>Esta propiedad de objeto relaciona que Elementos de Encuesta componene a una  Encuesta.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"/>
+        <rdfs:comment>Esta propiedad de objeto relaciona que Preguntas componen una Encuesta.</rdfs:comment>
         <rdfs:label>composed_by</rdfs:label>
     </owl:ObjectProperty>
     
@@ -178,8 +178,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
-        <rdfs:comment>Esta propiedad de objeto relaciona el Aeropuerto de origen con una  Encuesta.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"/>
+        <rdfs:comment>Esta propiedad de objeto relaciona el Aeropuerto de origen con una Encuesta.</rdfs:comment>
         <rdfs:label>originated_from</rdfs:label>
     </owl:ObjectProperty>
     
@@ -203,8 +203,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Was_destined_for">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
-        <rdfs:comment>Esta propiedad de objeto relaciona el Aeropuerto de destino con una  Encuesta.</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"/>
+        <rdfs:comment>Esta propiedad de objeto relaciona el Aeropuerto de destino con una Encuesta.</rdfs:comment>
         <rdfs:label>was_destined_for</rdfs:label>
     </owl:ObjectProperty>
     
@@ -215,8 +215,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/answered">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer"/>
         <rdfs:comment>Esta propiedad de objeto relaciona Respuestas a Preguntas.</rdfs:comment>
         <rdfs:label>answered</rdfs:label>
     </owl:ObjectProperty>
@@ -229,7 +229,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/was_operated">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft"/>
-        <rdfs:comment>Esta propiedad de objeto relaciona Encuestas a la Areonave que lo ha realizado.</rdfs:comment>
+        <rdfs:comment>Esta propiedad de objeto relaciona Encuestas a la Aeronave que lo ha realizado.</rdfs:comment>
         <rdfs:label>was_operated</rdfs:label>
     </owl:ObjectProperty>
     
@@ -239,8 +239,8 @@
 
 
     <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer"/>
     </rdf:Description>
     
 
@@ -273,7 +273,7 @@
 
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_a_statement">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Esta propiedad de dato indica el enunciado de la pregunta.</rdfs:comment>
         <rdfs:label>has_a_statement</rdfs:label>
@@ -333,29 +333,30 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"/>
         <rdfs:comment>Esta clase representa las distintas aeronaves que se pueden usar en los viajes.</rdfs:comment>
         <rdfs:label>Aircraft</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports -->
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports">
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport">
         <rdfs:comment>Esta clase representa los aeropuertos del viaje.</rdfs:comment>
-        <rdfs:label>Airports</rdfs:label>
-        <rdfs:sameAs>https://dbpedia.org/page/Category:Airports</rdfs:sameAs>
+        <rdfs:label>Airport</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Category:Airport</rdfs:sameAs>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers -->
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers">
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer">
         <rdfs:comment>Esta clase representa las respuestas dadas a la encuesta.</rdfs:comment>
-        <rdfs:label>Anwsers</rdfs:label>
+        <rdfs:label>Anwser</rdfs:label>
         <rdfs:sameAs>https://w3id.org/survey-ontology#Answer</rdfs:sameAs>
     </owl:Class>
     
@@ -366,7 +367,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Barely_satisfied">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"/>
-        <rdfs:comment>Esta clase representa un nivel bajo de satisfación en base a una pregunta.</rdfs:comment>
+        <rdfs:comment>Esta clase representa un nivel bajo de satisfacción en base a una pregunta.</rdfs:comment>
         <rdfs:label>Barely_satisfied</rdfs:label>
     </owl:Class>
     
@@ -377,7 +378,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Booking_survey">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
-        <rdfs:comment>Esta clase representa las encuestas de satisfacción con los metodos de reserva de viajes.</rdfs:comment>
+        <rdfs:comment>Esta clase representa las encuestas de satisfacción con los métodos de reserva de viajes.</rdfs:comment>
         <rdfs:label>Booking_survey</rdfs:label>
     </owl:Class>
     
@@ -421,7 +422,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Highly_satisfied">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"/>
-        <rdfs:comment>Esta clase representa un nivel elevado de satisfación en base a una pregunta.</rdfs:comment>
+        <rdfs:comment>Esta clase representa un nivel elevado de satisfacción en base a una pregunta.</rdfs:comment>
         <rdfs:label>Highly_satisfied</rdfs:label>
     </owl:Class>
     
@@ -431,7 +432,7 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer"/>
         <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos. Estos valores serán limitados en tipo y/o número de valores aceptados.</rdfs:comment>
         <rdfs:label>Limited_values_answer</rdfs:label>
     </owl:Class>
@@ -442,7 +443,7 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"/>
         <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos. Estos valores serán limitados en tipo y/o número de valores aceptados.</rdfs:comment>
         <rdfs:label>Limited_values_question</rdfs:label>
     </owl:Class>
@@ -458,7 +459,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Esta clase representa un nivel medio de satisfación en base a una pregunta.</rdfs:comment>
@@ -472,7 +473,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_Question">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"/>
-        <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos y que perminten seleccionar múltiples valores entre los propuestos.</rdfs:comment>
+        <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos y que permiten seleccionar múltiples valores entre los propuestos.</rdfs:comment>
         <rdfs:label>Multivalue_question</rdfs:label>
     </owl:Class>
     
@@ -483,7 +484,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_answer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"/>
-        <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos y que perminten seleccionar múltiples valores entre los propuestos.</rdfs:comment>
+        <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos y que permiten seleccionar múltiples valores entre los propuestos.</rdfs:comment>
         <rdfs:label>Multivalue_answer</rdfs:label>
     </owl:Class>
     
@@ -515,9 +516,9 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer"/>
         <rdfs:comment>Esta clase representa respuestas de texto libre que darán la oportunidad al encuestado de responder de forma libre y sin restricciones.</rdfs:comment>
-        <rdfs:label>Open_answers</rdfs:label>
+        <rdfs:label>Open_answer</rdfs:label>
     </owl:Class>
     
 
@@ -526,7 +527,7 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_question">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"/>
         <rdfs:comment>Esta clase representa preguntas de texto libre que darán la oportunidad al encuestado de responder de forma libre y sin restricciones.</rdfs:comment>
         <rdfs:label>Open_question</rdfs:label>
     </owl:Class>
@@ -555,12 +556,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions -->
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question -->
 
 
-    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions">
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question">
         <rdfs:comment>Esta clase representa a los diferentes tipos de preguntas que se pueden hacer en la encuesta.</rdfs:comment>
-        <rdfs:label>Questions</rdfs:label>
+        <rdfs:label>Question</rdfs:label>
         <rdfs:sameAs>https://w3id.org/survey-ontology#Question</rdfs:sameAs>
     </owl:Class>
     
@@ -571,7 +572,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_answer"/>
-        <rdfs:comment>Esta clase representa el nivel de satisfación en base a una pregunta.</rdfs:comment>
+        <rdfs:comment>Esta clase representa el nivel de satisfacción en base a una pregunta.</rdfs:comment>
         <rdfs:label>Satisfaction_answer</rdfs:label>
     </owl:Class>
     
@@ -593,7 +594,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_Value_Question">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"/>
-        <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos y que perminten seleccionar un único valor entre los propuestos.</rdfs:comment>
+        <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos y que permiten seleccionar un único valor entre los propuestos.</rdfs:comment>
         <rdfs:label>Single_value_question</rdfs:label>
     </owl:Class>
     
@@ -604,7 +605,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_value_answer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"/>
-        <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos y que perminten seleccionar un único valor entre los propuestos.</rdfs:comment>
+        <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos y que permiten seleccionar un único valor entre los propuestos.</rdfs:comment>
         <rdfs:label>Single_value_answer</rdfs:label>
     </owl:Class>
     
@@ -625,7 +626,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -639,7 +640,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Was_destined_for"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Esta clase representa a la encuesta que se va a realizar.</rdfs:comment>
@@ -675,7 +676,7 @@
 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Adolfo_Suarez-Madrid-Barajas">
-        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"/>
         <rdfs:comment>Instacia de ejemplo de aeropuerto. Será usada como ejemplo de destino.</rdfs:comment>
         <rdfs:label>Adolfo_Suarez-Madrid-Barajas</rdfs:label>
     </owl:NamedIndividual>
@@ -708,7 +709,7 @@
 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/JFK">
-        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"/>
         <rdfs:comment>Instacia de ejemplo de aeropuerto. Será usada como ejemplo de origen.</rdfs:comment>
         <rdfs:label>JFK</rdfs:label>
     </owl:NamedIndividual>
