@@ -11,7 +11,6 @@
                                         <http://purl.org/dc/terms/created> "2024-04-20" ;
                                         <http://purl.org/dc/terms/creator> "Raúl Checa Marín" ;
                                         <http://purl.org/dc/terms/description> "Ontogía para encuestas de satisfacción de vuelos." ;
-                                        <http://purl.org/dc/terms/license> "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International." ;
                                         <http://purl.org/dc/terms/title> "Ontología de la PEC 2 de Representación del conocimiento." ;
                                         owl:priorVersion 0.1 ;
                                         owl:versionIRI 1.0 ;
@@ -195,6 +194,7 @@ owl:topObjectProperty rdfs:domain :Questions ;
 
 ###  http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft
 :Aircraft rdf:type owl:Class ;
+          rdfs:subClassOf :Airports ;
           rdfs:comment "Esta clase representa las distintas aeronaves que se pueden usar en los viajes." ;
           rdfs:label "Aircraft" .
 
