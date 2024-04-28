@@ -1,0 +1,27 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Satisfaction_answer" "base:Numeric_Question" "base:Multivalue_answer" "base:Pollster" "base:Limited_values_question" "base:Single_value_answer" "base:Open_answer" "base:Multivalue_Question" "base:Global_satisfaction_survey" "base:Date_answer" "base:Services_survey" "base:Limited_values_answer" "base:Date_Question" "base:Booking_survey" "base:Moderately_satisfied" "base:Questions" "base:Numeric_answer" "base:Single_Value_Question" "base:Person" "base:Open_question" "base:Barely_satisfied" "base:Survey" "base:Answers" "base:Highly_satisfied" "base:Traveler" ; /*classes style*/
+	"base:Global_satisfaction_survey" -> "base:Survey" [ label = "rdfs:subClassOf" ];
+	"base:Traveler" -> "base:Person" [ label = "rdfs:subClassOf" ];
+	"base:Open_question" -> "base:Questions" [ label = "rdfs:subClassOf" ];
+	"base:Pollster" -> "base:Person" [ label = "rdfs:subClassOf" ];
+	"base:Open_answer" -> "base:Answers" [ label = "rdfs:subClassOf" ];
+	"base:Moderately_satisfied" -> "base:Satisfaction_answer" [ label = "rdfs:subClassOf" ];
+	"base:Date_answer" -> "base:Limited_values_answer" [ label = "rdfs:subClassOf" ];
+	"base:Limited_values_question" -> "base:Questions" [ label = "rdfs:subClassOf" ];
+	"base:Highly_satisfied" -> "base:Satisfaction_answer" [ label = "rdfs:subClassOf" ];
+	"base:Satisfaction_answer" -> "base:Numeric_answer" [ label = "rdfs:subClassOf" ];
+	"base:Numeric_Question" -> "base:Limited_values_question" [ label = "rdfs:subClassOf" ];
+	"base:Date_Question" -> "base:Limited_values_question" [ label = "rdfs:subClassOf" ];
+	"base:Barely_satisfied" -> "base:Satisfaction_answer" [ label = "rdfs:subClassOf" ];
+	"base:Limited_values_answer" -> "base:Answers" [ label = "rdfs:subClassOf" ];
+	"base:Booking_survey" -> "base:Survey" [ label = "rdfs:subClassOf" ];
+	"base:Multivalue_Question" -> "base:Limited_values_question" [ label = "rdfs:subClassOf" ];
+	"base:Services_survey" -> "base:Survey" [ label = "rdfs:subClassOf" ];
+	"base:Single_value_answer" -> "base:Limited_values_answer" [ label = "rdfs:subClassOf" ];
+	"base:Numeric_answer" -> "base:Limited_values_answer" [ label = "rdfs:subClassOf" ];
+	"base:Multivalue_answer" -> "base:Limited_values_answer" [ label = "rdfs:subClassOf" ];
+	"base:Single_Value_Question" -> "base:Limited_values_question" [ label = "rdfs:subClassOf" ];
+
+}

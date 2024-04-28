@@ -1,0 +1,1015 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/def/rchecam-RP-PEC2#"
+     xml:base="https://w3id.org/def/rchecam-RP-PEC2"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dtc="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:Ejercicio2="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/">
+    <owl:Ontology rdf:about="https://w3id.org/def/rchecam-RP-PEC2">
+        <terms:contributor>Raúl Checa Marín</terms:contributor>
+        <terms:created>2024-04-20</terms:created>
+        <terms:creator>Raúl Checa Marín</terms:creator>
+        <terms:description>Ontogía para encuestas de satisfacción de vuelos.</terms:description>
+        <terms:license>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International.</terms:license>
+        <terms:title>Ontología de la PEC 2 de Representación del conocimiento.</terms:title>
+        <owl:priorVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:priorVersion>
+        <owl:versionIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionIRI>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionIRI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionIRI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Composed_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Composed_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
+        <rdfs:comment>Esta propiedad de objeto relaciona que Elementos de Encuesta componene a una  Encuesta.</rdfs:comment>
+        <rdfs:label>composed_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Managed_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Managed_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster"/>
+        <rdfs:comment>Esta propiedad de objeto indica que Persona de subclase Encuestador ha gestionado la Encuesta.</rdfs:comment>
+        <rdfs:label>managed_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+        <rdfs:comment>Esta propiedad de objeto relaciona el Aeropuerto de origen con una  Encuesta.</rdfs:comment>
+        <rdfs:label>originated_from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Performed_by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Performed_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler"/>
+        <rdfs:comment>Esta propiedad de objeto indica que Persona de subclase Viajero ha realizado la Encuesta.</rdfs:comment>
+        <rdfs:label>performed_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Was_destined_for -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Was_destined_for">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+        <rdfs:comment>Esta propiedad de objeto relaciona el Aeropuerto de destino con una  Encuesta.</rdfs:comment>
+        <rdfs:label>was_destined_for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/answered -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/answered">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"/>
+        <rdfs:comment>Esta propiedad de objeto relaciona Respuestas a Preguntas.</rdfs:comment>
+        <rdfs:label>answered</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/was_operated -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/was_operated">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft"/>
+        <rdfs:comment>Esta propiedad de objeto relaciona Encuestas a la Areonave que lo ha realizado.</rdfs:comment>
+        <rdfs:label>was_operated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Has_title -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Has_title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Esta propiedad de dato indica el título de la encuesta.</rdfs:comment>
+        <rdfs:label>has_title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_a_statement -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_a_statement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Esta propiedad de dato indica el enunciado de la pregunta.</rdfs:comment>
+        <rdfs:label>has_a_statement</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_answer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Esta propiedad de dato indica el valor numérico de una respuesta.</rdfs:comment>
+        <rdfs:label>has_numeric_value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_person_id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_person_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Esta propiedad de dato indica el identificador de la persona.</rdfs:comment>
+        <rdfs:label>has_person_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_survey_id -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_survey_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Esta propiedad de dato indica el identificador de la encuesta.</rdfs:comment>
+        <rdfs:label>has_survey_id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft">
+        <rdfs:comment>Esta clase representa las distintas aeronaves que se pueden usar en los viajes.</rdfs:comment>
+        <rdfs:label>Aircraft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports">
+        <rdfs:comment>Esta clase representa los aeropuertos del viaje.</rdfs:comment>
+        <rdfs:label>Airports</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Category:Airports</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers">
+        <rdfs:comment>Esta clase representa las respuestas dadas a la encuesta.</rdfs:comment>
+        <rdfs:label>Anwsers</rdfs:label>
+        <rdfs:sameAs>https://w3id.org/survey-ontology#Answer</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Barely_satisfied -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Barely_satisfied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"/>
+        <rdfs:comment>Esta clase representa un nivel bajo de satisfación en base a una pregunta.</rdfs:comment>
+        <rdfs:label>Barely_satisfied</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Booking_survey -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Booking_survey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:comment>Esta clase representa las encuestas de satisfacción con los metodos de reserva de viajes.</rdfs:comment>
+        <rdfs:label>Booking_survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Date_Question -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Date_Question">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"/>
+        <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos y que solamente aceptan fechas como respuesta.</rdfs:comment>
+        <rdfs:label>Date_question</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Date_answer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Date_answer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"/>
+        <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos y que solamente aceptan fechas como respuesta.</rdfs:comment>
+        <rdfs:label>Date_answer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Global_satisfaction_survey -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Global_satisfaction_survey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:comment>Esta clase representa las encuestas de satisfacción global del servicio.</rdfs:comment>
+        <rdfs:label>Global_satisfaction_survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Highly_satisfied -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Highly_satisfied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"/>
+        <rdfs:comment>Esta clase representa un nivel elevado de satisfación en base a una pregunta.</rdfs:comment>
+        <rdfs:label>Highly_satisfied</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"/>
+        <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos. Estos valores serán limitados en tipo y/o número de valores aceptados.</rdfs:comment>
+        <rdfs:label>Limited_values_answer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
+        <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos. Estos valores serán limitados en tipo y/o número de valores aceptados.</rdfs:comment>
+        <rdfs:label>Limited_values_question</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Moderately_satisfied -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Moderately_satisfied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Esta clase representa un nivel medio de satisfación en base a una pregunta.</rdfs:comment>
+        <rdfs:label>Moderately_satisfied</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_Question -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_Question">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"/>
+        <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos y que perminten seleccionar múltiples valores entre los propuestos.</rdfs:comment>
+        <rdfs:label>Multivalue_question</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_answer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_answer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"/>
+        <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos y que perminten seleccionar múltiples valores entre los propuestos.</rdfs:comment>
+        <rdfs:label>Multivalue_answer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_Question -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_Question">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"/>
+        <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos y que solo aceptan números como respuesta.</rdfs:comment>
+        <rdfs:label>Numeric_question</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_answer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_answer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"/>
+        <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos y que solo aceptan números como respuesta.</rdfs:comment>
+        <rdfs:label>Numeric_answer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"/>
+        <rdfs:comment>Esta clase representa respuestas de texto libre que darán la oportunidad al encuestado de responder de forma libre y sin restricciones.</rdfs:comment>
+        <rdfs:label>Open_answers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_question -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_question">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"/>
+        <rdfs:comment>Esta clase representa preguntas de texto libre que darán la oportunidad al encuestado de responder de forma libre y sin restricciones.</rdfs:comment>
+        <rdfs:label>Open_question</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Person -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Person">
+        <rdfs:comment>Esta clase representa las personas que participan en la encuesta.</rdfs:comment>
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler"/>
+        <rdfs:comment>Esta clase representa al encuestador que realiza la encuesta.</rdfs:comment>
+        <rdfs:label>Pollster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions">
+        <rdfs:comment>Esta clase representa a los diferentes tipos de preguntas que se pueden hacer en la encuesta.</rdfs:comment>
+        <rdfs:label>Questions</rdfs:label>
+        <rdfs:sameAs>https://w3id.org/survey-ontology#Question</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_answer"/>
+        <rdfs:comment>Esta clase representa el nivel de satisfación en base a una pregunta.</rdfs:comment>
+        <rdfs:label>Satisfaction_answer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Services_survey -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Services_survey">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <rdfs:comment>Esta clase representa las encuestas relativas a los servicios ofrecidos en el viaje.</rdfs:comment>
+        <rdfs:label>Services_survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_Value_Question -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_Value_Question">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"/>
+        <rdfs:comment>Esta clase representa las preguntas que tienen valores restringidos y que perminten seleccionar un único valor entre los propuestos.</rdfs:comment>
+        <rdfs:label>Single_value_question</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_value_answer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_value_answer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"/>
+        <rdfs:comment>Esta clase representa las respuestas que tienen valores restringidos y que perminten seleccionar un único valor entre los propuestos.</rdfs:comment>
+        <rdfs:label>Single_value_answer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Managed_by"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Performed_by"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Was_destined_for"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Esta clase representa a la encuesta que se va a realizar.</rdfs:comment>
+        <rdfs:label>Survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Person"/>
+        <rdfs:comment>Esta clase representa a la persona que ha viajado y que cumplimenta la encuesta.</rdfs:comment>
+        <rdfs:label>Traveler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Adolfo_Suarez-Madrid-Barajas -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Adolfo_Suarez-Madrid-Barajas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+        <rdfs:comment>Instacia de ejemplo de aeropuerto. Será usada como ejemplo de destino.</rdfs:comment>
+        <rdfs:label>Adolfo_Suarez-Madrid-Barajas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer_Global_Satisfaction -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer_Global_Satisfaction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"/>
+        <Ejercicio2:has_numeric_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</Ejercicio2:has_numeric_value>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Global_Satisfaction -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Global_Satisfaction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_Question"/>
+        <Ejercicio2:answered rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer_Global_Satisfaction"/>
+        <rdfs:comment>Instacia de ejemplo de Pregunta.</rdfs:comment>
+        <rdfs:label>Global_Satisfaction</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/JFK -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/JFK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
+        <rdfs:comment>Instacia de ejemplo de aeropuerto. Será usada como ejemplo de origen.</rdfs:comment>
+        <rdfs:label>JFK</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster01 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster"/>
+        <Ejercicio2:has_person_id>Pollster01</Ejercicio2:has_person_id>
+        <rdfs:comment>Instacia de ejemplo de un encuestador</rdfs:comment>
+        <rdfs:label>Pollster01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey01 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"/>
+        <Ejercicio2:Composed_by rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Global_Satisfaction"/>
+        <Ejercicio2:Managed_by rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster01"/>
+        <Ejercicio2:Originated_from rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/JFK"/>
+        <Ejercicio2:Performed_by rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler01"/>
+        <Ejercicio2:Was_destined_for rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Adolfo_Suarez-Madrid-Barajas"/>
+        <Ejercicio2:Has_title>Encuesta de ejemplo</Ejercicio2:Has_title>
+        <Ejercicio2:has_survey_id>Survey01</Ejercicio2:has_survey_id>
+        <rdfs:comment>Instancia de ejemplo de una encuesta</rdfs:comment>
+        <rdfs:label>Survey01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler01 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler"/>
+        <Ejercicio2:Managed_by rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster01"/>
+        <Ejercicio2:Performed_by rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler01"/>
+        <Ejercicio2:has_person_id>Traveler01</Ejercicio2:has_person_id>
+        <rdfs:comment>Instacia de ejemplo de un viajero</rdfs:comment>
+        <rdfs:label>Traveler01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Calculo de alta satisfacción</rdfs:comment>
+        <rdfs:label>Barely_satisfied</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Barely_satisfied"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Calculo de alta satisfacción</rdfs:comment>
+        <rdfs:label>Highly_satisfied</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Highly_satisfied"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Calculo de alta satisfacción</rdfs:comment>
+        <rdfs:label>Moderately_satisfied</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Moderately_satisfied"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
