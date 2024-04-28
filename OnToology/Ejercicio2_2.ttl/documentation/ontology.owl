@@ -333,7 +333,6 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
         <rdfs:comment>Esta clase representa las distintas aeronaves que se pueden usar en los viajes.</rdfs:comment>
         <rdfs:label>Aircraft</rdfs:label>
     </owl:Class>

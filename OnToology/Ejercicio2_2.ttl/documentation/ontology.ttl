@@ -194,7 +194,6 @@ owl:topObjectProperty rdfs:domain <http://www.semanticweb.org/rchec/ontologies/2
 
 ###  http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft
 <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft> rdf:type owl:Class ;
-                                                                            rdfs:subClassOf <http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports> ;
                                                                             rdfs:comment "Esta clase representa las distintas aeronaves que se pueden usar en los viajes." ;
                                                                             rdfs:label "Aircraft" .
 

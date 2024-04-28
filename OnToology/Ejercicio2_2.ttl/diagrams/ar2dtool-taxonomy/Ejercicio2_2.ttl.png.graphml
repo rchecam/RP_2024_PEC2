@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="22" parse.nodes="27" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="21" parse.nodes="25" parse.order="free">
       <node id="nid_base:Global_satisfaction_survey">
          <data key="d0">
             <y:ShapeNode>
@@ -239,41 +239,6 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_base:Aircraft">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:Aircraft</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-      <node id="nid_base:Airports">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="130.0" x="0.0" y="0.0" />
-               <y:Fill color="#000000" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">base:Airports</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdfs:subClassOf7" source="nid_base:Aircraft" target="nid_base:Airports">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdfs:subClassOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_base:Limited_values_question">
          <data key="d0">
             <y:ShapeNode>
@@ -286,7 +251,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf8" source="nid_base:Limited_values_question" target="nid_base:Questions">
+    <edge id="eid_rdfs:subClassOf7" source="nid_base:Limited_values_question" target="nid_base:Questions">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -309,7 +274,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf9" source="nid_base:Highly_satisfied" target="nid_base:Satisfaction_answer">
+    <edge id="eid_rdfs:subClassOf8" source="nid_base:Highly_satisfied" target="nid_base:Satisfaction_answer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -332,7 +297,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf10" source="nid_base:Satisfaction_answer" target="nid_base:Numeric_answer">
+    <edge id="eid_rdfs:subClassOf9" source="nid_base:Satisfaction_answer" target="nid_base:Numeric_answer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -355,7 +320,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf11" source="nid_base:Numeric_Question" target="nid_base:Limited_values_question">
+    <edge id="eid_rdfs:subClassOf10" source="nid_base:Numeric_Question" target="nid_base:Limited_values_question">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -378,7 +343,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf12" source="nid_base:Date_Question" target="nid_base:Limited_values_question">
+    <edge id="eid_rdfs:subClassOf11" source="nid_base:Date_Question" target="nid_base:Limited_values_question">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -401,7 +366,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf13" source="nid_base:Barely_satisfied" target="nid_base:Satisfaction_answer">
+    <edge id="eid_rdfs:subClassOf12" source="nid_base:Barely_satisfied" target="nid_base:Satisfaction_answer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -412,7 +377,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf14" source="nid_base:Limited_values_answer" target="nid_base:Answers">
+    <edge id="eid_rdfs:subClassOf13" source="nid_base:Limited_values_answer" target="nid_base:Answers">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -435,7 +400,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf15" source="nid_base:Booking_survey" target="nid_base:Survey">
+    <edge id="eid_rdfs:subClassOf14" source="nid_base:Booking_survey" target="nid_base:Survey">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -458,7 +423,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf16" source="nid_base:Multivalue_Question" target="nid_base:Limited_values_question">
+    <edge id="eid_rdfs:subClassOf15" source="nid_base:Multivalue_Question" target="nid_base:Limited_values_question">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -481,7 +446,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf17" source="nid_base:Services_survey" target="nid_base:Survey">
+    <edge id="eid_rdfs:subClassOf16" source="nid_base:Services_survey" target="nid_base:Survey">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -504,7 +469,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf18" source="nid_base:Single_value_answer" target="nid_base:Limited_values_answer">
+    <edge id="eid_rdfs:subClassOf17" source="nid_base:Single_value_answer" target="nid_base:Limited_values_answer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -515,7 +480,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subClassOf19" source="nid_base:Numeric_answer" target="nid_base:Limited_values_answer">
+    <edge id="eid_rdfs:subClassOf18" source="nid_base:Numeric_answer" target="nid_base:Limited_values_answer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -538,7 +503,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf20" source="nid_base:Multivalue_answer" target="nid_base:Limited_values_answer">
+    <edge id="eid_rdfs:subClassOf19" source="nid_base:Multivalue_answer" target="nid_base:Limited_values_answer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -561,7 +526,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subClassOf21" source="nid_base:Single_Value_Question" target="nid_base:Limited_values_question">
+    <edge id="eid_rdfs:subClassOf20" source="nid_base:Single_Value_Question" target="nid_base:Limited_values_question">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
