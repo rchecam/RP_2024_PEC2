@@ -345,6 +345,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports",
@@ -1004,9 +1007,6 @@
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@value" : "Ontogía para encuestas de satisfacción de vuelos."
-  } ],
-  "http://purl.org/dc/terms/license" : [ {
-    "@value" : "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International."
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "Ontología de la PEC 2 de Representación del conocimiento."

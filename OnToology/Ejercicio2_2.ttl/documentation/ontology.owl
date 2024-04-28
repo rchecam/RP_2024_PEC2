@@ -18,7 +18,6 @@
         <terms:created>2024-04-20</terms:created>
         <terms:creator>Raúl Checa Marín</terms:creator>
         <terms:description>Ontogía para encuestas de satisfacción de vuelos.</terms:description>
-        <terms:license>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International.</terms:license>
         <terms:title>Ontología de la PEC 2 de Representación del conocimiento.</terms:title>
         <owl:priorVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</owl:priorVersion>
         <owl:versionIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionIRI>
@@ -334,6 +333,7 @@
 
 
     <owl:Class rdf:about="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"/>
         <rdfs:comment>Esta clase representa las distintas aeronaves que se pueden usar en los viajes.</rdfs:comment>
         <rdfs:label>Aircraft</rdfs:label>
     </owl:Class>
