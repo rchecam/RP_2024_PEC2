@@ -1,0 +1,1026 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Managed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Moderately_satisfied"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Calculo de alta satisfacción"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Barely_satisfied"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid29"
+    }, {
+      "@id" : "_:genid27"
+    }, {
+      "@id" : "_:genid23"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid31"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "6"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Barely_satisfied"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Calculo de alta satisfacción"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Highly_satisfied"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid40"
+    }, {
+      "@id" : "_:genid38"
+    }, {
+      "@id" : "_:genid34"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid42"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Performed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Highly_satisfied"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Was_destined_for"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Calculo de alta satisfacción"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Moderately_satisfied"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid18"
+    }, {
+      "@id" : "_:genid16"
+    }, {
+      "@id" : "_:genid12"
+    }, {
+      "@id" : "_:genid8"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid20"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "9"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Adolfo_Suarez-Madrid-Barajas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Instacia de ejemplo de aeropuerto. Será usada como ejemplo de destino."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Adolfo_Suarez-Madrid-Barajas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las distintas aeronaves que se pueden usar en los viajes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa los aeropuertos del viaje."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airports"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Category:Airports"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer_Global_Satisfaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las respuestas dadas a la encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Anwsers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://w3id.org/survey-ontology#Answer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Barely_satisfied",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa un nivel bajo de satisfación en base a una pregunta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Barely_satisfied"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Booking_survey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las encuestas de satisfacción con los metodos de reserva de viajes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Booking_survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Composed_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de objeto relaciona que Elementos de Encuesta componene a una  Encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "composed_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Date_Question",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las preguntas que tienen valores restringidos y que solamente aceptan fechas como respuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Date_question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Date_answer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las respuestas que tienen valores restringidos y que solamente aceptan fechas como respuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Date_answer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Global_Satisfaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/answered" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer_Global_Satisfaction"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_Question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Instacia de ejemplo de Pregunta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Global_Satisfaction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Global_satisfaction_survey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las encuestas de satisfacción global del servicio."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Global_satisfaction_survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Has_title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de dato indica el título de la encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Highly_satisfied",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa un nivel elevado de satisfación en base a una pregunta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Highly_satisfied"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/JFK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Instacia de ejemplo de aeropuerto. Será usada como ejemplo de origen."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "JFK"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las respuestas que tienen valores restringidos. Estos valores serán limitados en tipo y/o número de valores aceptados."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Limited_values_answer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las preguntas que tienen valores restringidos. Estos valores serán limitados en tipo y/o número de valores aceptados."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Limited_values_question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Managed_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de objeto indica que Persona de subclase Encuestador ha gestionado la Encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "managed_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Moderately_satisfied",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa un nivel medio de satisfación en base a una pregunta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Moderately_satisfied"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_Question",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las preguntas que tienen valores restringidos y que perminten seleccionar múltiples valores entre los propuestos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Multivalue_question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_answer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las respuestas que tienen valores restringidos y que perminten seleccionar múltiples valores entre los propuestos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Multivalue_answer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_Question",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las preguntas que tienen valores restringidos y que solo aceptan números como respuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Numeric_question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_answer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las respuestas que tienen valores restringidos y que solo aceptan números como respuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Numeric_answer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa respuestas de texto libre que darán la oportunidad al encuestado de responder de forma libre y sin restricciones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Open_answers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_question",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa preguntas de texto libre que darán la oportunidad al encuestado de responder de forma libre y sin restricciones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Open_question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de objeto relaciona el Aeropuerto de origen con una  Encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "originated_from"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Performed_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de objeto indica que Persona de subclase Viajero ha realizado la Encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "performed_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las personas que participan en la encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa al encuestador que realiza la encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pollster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_person_id" : [ {
+    "@value" : "Pollster01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Instacia de ejemplo de un encuestador"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pollster01"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa a los diferentes tipos de preguntas que se pueden hacer en la encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Questions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://w3id.org/survey-ontology#Question"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa el nivel de satisfación en base a una pregunta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Satisfaction_answer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_answer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Services_survey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las encuestas relativas a los servicios ofrecidos en el viaje."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Services_survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_Value_Question",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las preguntas que tienen valores restringidos y que perminten seleccionar un único valor entre los propuestos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Single_value_question"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_question"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_value_answer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa las respuestas que tienen valores restringidos y que perminten seleccionar un único valor entre los propuestos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Single_value_answer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa a la encuesta que se va a realizar."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Composed_by" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Global_Satisfaction"
+  } ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Has_title" : [ {
+    "@value" : "Encuesta de ejemplo"
+  } ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Managed_by" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster01"
+  } ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/JFK"
+  } ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Performed_by" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler01"
+  } ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Was_destined_for" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Adolfo_Suarez-Madrid-Barajas"
+  } ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_survey_id" : [ {
+    "@value" : "Survey01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Instancia de ejemplo de una encuesta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Survey01"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta clase representa a la persona que ha viajado y que cumplimenta la encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Traveler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Managed_by" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster01"
+  } ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Performed_by" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler01"
+  } ],
+  "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_person_id" : [ {
+    "@value" : "Traveler01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Traveler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Instacia de ejemplo de un viajero"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Traveler01"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Was_destined_for",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de objeto relaciona el Aeropuerto de destino con una  Encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "was_destined_for"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/answered",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de objeto relaciona Respuestas a Preguntas."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "answered"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/dtc:license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_a_statement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de dato indica el enunciado de la pregunta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_a_statement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_numeric_value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de dato indica el valor numérico de una respuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Numeric_answer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_numeric_value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_person_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de dato indica el identificador de la persona."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_person_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/has_survey_id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de dato indica el identificador de la encuesta."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_survey_id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/o",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/w",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/was_operated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Esta propiedad de objeto relaciona Encuestas a la Areonave que lo ha realizado."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "was_operated"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "https://w3id.org/def/rchecam-RP-PEC2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Raúl Checa Marín"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2024-04-20"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Raúl Checa Marín"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Ontogía para encuestas de satisfacción de vuelos."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International."
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "Ontología de la PEC 2 de Representación del conocimiento."
+  } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.1"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ]
+} ]
