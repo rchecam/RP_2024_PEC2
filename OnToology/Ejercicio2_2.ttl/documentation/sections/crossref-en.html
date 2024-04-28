@@ -10,12 +10,12 @@ This section provides details for each class and property defined by Ontología 
             title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft">Aircraft</a>
       </li>
       <li>
-         <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
-            title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports">Airports</a>
+         <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"
+            title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport">Airport</a>
       </li>
       <li>
-         <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"
-            title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers">Anwsers</a>
+         <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer"
+            title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer">Anwser</a>
       </li>
       <li>
          <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Barely_satisfied"
@@ -71,7 +71,7 @@ This section provides details for each class and property defined by Ontología 
       </li>
       <li>
          <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer"
-            title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer">Open_answers</a>
+            title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer">Open_answer</a>
       </li>
       <li>
          <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_question"
@@ -86,8 +86,8 @@ This section provides details for each class and property defined by Ontología 
             title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Pollster">Pollster</a>
       </li>
       <li>
-         <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
-            title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions">Questions</a>
+         <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"
+            title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question">Question</a>
       </li>
       <li>
          <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer"
@@ -125,6 +125,12 @@ This section provides details for each class and property defined by Ontología 
          <span class="markdown">Esta clase representa las distintas aeronaves que se pueden usar en los viajes.</span>
       </div>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"
+               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport">Airport</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/was_operated"
@@ -133,17 +139,23 @@ This section provides details for each class and property defined by Ontología 
          </dd>
       </dl>
    </div>
-   <div class="entity" id="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports">
-      <h3>Airports<sup class="type-c" title="class">c</sup>
+   <div class="entity" id="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport">
+      <h3>Airport<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports</p>
+         <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport</p>
       <div class="comment">
          <span class="markdown">Esta clase representa los aeropuertos del viaje.</span>
       </div>
       <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft"
+               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Aircraft">Aircraft</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from"
@@ -162,13 +174,13 @@ This section provides details for each class and property defined by Ontología 
          </dd>
       </dl>
    </div>
-   <div class="entity" id="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers">
-      <h3>Anwsers<sup class="type-c" title="class">c</sup>
+   <div class="entity" id="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer">
+      <h3>Anwser<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers</p>
+         <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer</p>
       <div class="comment">
          <span class="markdown">Esta clase representa las respuestas dadas a la encuesta.</span>
       </div>
@@ -178,7 +190,7 @@ This section provides details for each class and property defined by Ontología 
             <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer"
                title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Limited_values_answer">Limited_values_answer</a>
             <sup class="type-c" title="class">c</sup>, <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer"
-               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer">Open_answers</a>
+               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer">Open_answer</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is in range of</dt>
@@ -197,7 +209,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Barely_satisfied</p>
       <div class="comment">
-         <span class="markdown">Esta clase representa un nivel bajo de satisfación en base a una pregunta.</span>
+         <span class="markdown">Esta clase representa un nivel bajo de satisfacción en base a una pregunta.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -216,7 +228,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Booking_survey</p>
       <div class="comment">
-         <span class="markdown">Esta clase representa las encuestas de satisfacción con los metodos de reserva de viajes.</span>
+         <span class="markdown">Esta clase representa las encuestas de satisfacción con los métodos de reserva de viajes.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -292,7 +304,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Highly_satisfied</p>
       <div class="comment">
-         <span class="markdown">Esta clase representa un nivel elevado de satisfación en base a una pregunta.</span>
+         <span class="markdown">Esta clase representa un nivel elevado de satisfacción en base a una pregunta.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -316,8 +328,8 @@ This section provides details for each class and property defined by Ontología 
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"
-               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers">Anwsers</a>
+            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer"
+               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer">Anwser</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>has sub-classes</dt>
@@ -347,8 +359,8 @@ This section provides details for each class and property defined by Ontología 
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
-               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions">Questions</a>
+            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"
+               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question">Question</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>has sub-classes</dt>
@@ -392,7 +404,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_answer</p>
       <div class="comment">
-         <span class="markdown">Esta clase representa las respuestas que tienen valores restringidos y que perminten seleccionar múltiples valores entre los propuestos.</span>
+         <span class="markdown">Esta clase representa las respuestas que tienen valores restringidos y que permiten seleccionar múltiples valores entre los propuestos.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -411,7 +423,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Multivalue_Question</p>
       <div class="comment">
-         <span class="markdown">Esta clase representa las preguntas que tienen valores restringidos y que perminten seleccionar múltiples valores entre los propuestos.</span>
+         <span class="markdown">Esta clase representa las preguntas que tienen valores restringidos y que permiten seleccionar múltiples valores entre los propuestos.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -479,7 +491,7 @@ This section provides details for each class and property defined by Ontología 
       </dl>
    </div>
    <div class="entity" id="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Open_answer">
-      <h3>Open_answers<sup class="type-c" title="class">c</sup>
+      <h3>Open_answer<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
@@ -491,8 +503,8 @@ This section provides details for each class and property defined by Ontología 
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"
-               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers">Anwsers</a>
+            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer"
+               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer">Anwser</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -510,8 +522,8 @@ This section provides details for each class and property defined by Ontología 
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
-               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions">Questions</a>
+            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"
+               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question">Question</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -580,13 +592,13 @@ This section provides details for each class and property defined by Ontología 
          </dd>
       </dl>
    </div>
-   <div class="entity" id="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions">
-      <h3>Questions<sup class="type-c" title="class">c</sup>
+   <div class="entity" id="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question">
+      <h3>Question<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions</p>
+         <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question</p>
       <div class="comment">
          <span class="markdown">Esta clase representa a los diferentes tipos de preguntas que se pueden hacer en la encuesta.</span>
       </div>
@@ -623,7 +635,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Satisfaction_answer</p>
       <div class="comment">
-         <span class="markdown">Esta clase representa el nivel de satisfación en base a una pregunta.</span>
+         <span class="markdown">Esta clase representa el nivel de satisfacción en base a una pregunta.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -677,7 +689,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_value_answer</p>
       <div class="comment">
-         <span class="markdown">Esta clase representa las respuestas que tienen valores restringidos y que perminten seleccionar un único valor entre los propuestos.</span>
+         <span class="markdown">Esta clase representa las respuestas que tienen valores restringidos y que permiten seleccionar un único valor entre los propuestos.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -696,7 +708,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Single_Value_Question</p>
       <div class="comment">
-         <span class="markdown">Esta clase representa las preguntas que tienen valores restringidos y que perminten seleccionar un único valor entre los propuestos.</span>
+         <span class="markdown">Esta clase representa las preguntas que tienen valores restringidos y que permiten seleccionar un único valor entre los propuestos.</span>
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
@@ -849,14 +861,14 @@ This section provides details for each class and property defined by Ontología 
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
-                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions">Questions</a>
+               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"
+                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question">Question</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers"
-                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answers">Anwsers</a>
+               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer"
+                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Answer">Anwser</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -870,7 +882,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Composed_by</p>
       <div class="comment">
-         <span class="markdown">Esta propiedad de objeto relaciona que Elementos de Encuesta componene a una  Encuesta.</span>
+         <span class="markdown">Esta propiedad de objeto relaciona que Preguntas componen una Encuesta.</span>
       </div>
       <div class="description">
          <dl>
@@ -888,8 +900,8 @@ This section provides details for each class and property defined by Ontología 
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
-                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions">Questions</a>
+               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"
+                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question">Question</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -930,7 +942,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Originated_from</p>
       <div class="comment">
-         <span class="markdown">Esta propiedad de objeto relaciona el Aeropuerto de origen con una  Encuesta.</span>
+         <span class="markdown">Esta propiedad de objeto relaciona el Aeropuerto de origen con una Encuesta.</span>
       </div>
       <div class="description">
          <dl>
@@ -942,8 +954,8 @@ This section provides details for each class and property defined by Ontología 
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
-                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports">Airports</a>
+               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"
+                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport">Airport</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -984,7 +996,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Was_destined_for</p>
       <div class="comment">
-         <span class="markdown">Esta propiedad de objeto relaciona el Aeropuerto de destino con una  Encuesta.</span>
+         <span class="markdown">Esta propiedad de objeto relaciona el Aeropuerto de destino con una Encuesta.</span>
       </div>
       <div class="description">
          <dl>
@@ -1002,8 +1014,8 @@ This section provides details for each class and property defined by Ontología 
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
-                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports">Airports</a>
+               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"
+                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport">Airport</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -1017,7 +1029,7 @@ This section provides details for each class and property defined by Ontología 
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/was_operated</p>
       <div class="comment">
-         <span class="markdown">Esta propiedad de objeto relaciona Encuestas a la Areonave que lo ha realizado.</span>
+         <span class="markdown">Esta propiedad de objeto relaciona Encuestas a la Aeronave que lo ha realizado.</span>
       </div>
       <div class="description">
          <dl>
@@ -1076,8 +1088,8 @@ This section provides details for each class and property defined by Ontología 
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions"
-                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Questions">Questions</a>
+               <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question"
+                  title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Question">Question</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -1246,8 +1258,8 @@ This section provides details for each class and property defined by Ontología 
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
-               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports">Airports</a>
+            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"
+               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport">Airport</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -1318,8 +1330,8 @@ This section provides details for each class and property defined by Ontología 
       <dl class="description">
          <dt>belongs to</dt>
          <dd>
-            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports"
-               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airports">Airports</a>
+            <a href="#http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport"
+               title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Airport">Airport</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -1463,16 +1475,16 @@ This section provides details for each class and property defined by Ontología 
    <h3 id="swrlrules" class="list">SWRL rules</h3>
    <ul class="hlist">
       <li>
-         <a href="#d4e859">Barely_satisfied</a>
+         <a href="#d4e861">Barely_satisfied</a>
       </li>
       <li>
-         <a href="#d4e981">Highly_satisfied</a>
+         <a href="#d4e983">Highly_satisfied</a>
       </li>
       <li>
-         <a href="#d4e1103">Moderately_satisfied</a>
+         <a href="#d4e1105">Moderately_satisfied</a>
       </li>
    </ul>
-   <div class="entity" id="d4e859">
+   <div class="entity" id="d4e861">
       <h3>Barely_satisfied<span class="backlink">back to <a href="#toc">ToC</a>
          </span>
       </h3>
@@ -1486,7 +1498,7 @@ This section provides details for each class and property defined by Ontología 
             title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Barely_satisfied">Barely_satisfied</a>
          <sup class="type-c" title="class">c</sup>(?)</p>
    </div>
-   <div class="entity" id="d4e981">
+   <div class="entity" id="d4e983">
       <h3>Highly_satisfied<span class="backlink">back to <a href="#toc">ToC</a>
          </span>
       </h3>
@@ -1500,7 +1512,7 @@ This section provides details for each class and property defined by Ontología 
             title="http://www.semanticweb.org/rchec/ontologies/2024/PEC2/Ejercicio2/Highly_satisfied">Highly_satisfied</a>
          <sup class="type-c" title="class">c</sup>(?)</p>
    </div>
-   <div class="entity" id="d4e1103">
+   <div class="entity" id="d4e1105">
       <h3>Moderately_satisfied<span class="backlink">back to <a href="#toc">ToC</a>
          </span>
       </h3>
